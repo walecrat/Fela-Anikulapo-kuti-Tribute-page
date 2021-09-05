@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-home {
+  background-image: url("../images/fela_portrait_15.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: verdana;
+}
+
+.hero {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: verdana;
+}
+
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  float: right;
+}
+.menu-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-bar ul li:hover {
+  background-color: #585e58;
+  border-radius: 3px;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background-color: #000;
+  margin: 15px 0 0 -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.container {
+  width: 50%;
+  margin: 150px auto;
+  float: right;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  line-height: 1.6;
+  border-radius: 10px;
+}
+
+.main h2{
+  letter-spacing: 3px;
+  margin: 20px 0;
+}
+
+.main p{
+  text-indent: 20px;
+  line-height: 1.9;
+}
+
+.title-bar {
+  width: 0;
+  border: 2px solid yellow;
+  float: left;
+}
+
+.bg-music {
+  background-image: url("../images/fela_portrait_12.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin: 150px auto;
+  padding: 0 4px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+}
+.music-title, .pic-title {
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.col img {
+  margin-top: 40px;
+  padding-right: 25px;
+  vertical-align: middle;
+  width: 100%;
+}
